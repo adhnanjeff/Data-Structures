@@ -30,7 +30,7 @@ def printNodes(node, val=''):
 
 chars = ['a', 'b', 'c', 'd', 'e', 'f'] 
 
-freq = [5, 9, 12, 13, 16, 45] 
+freq = [5, 9, 12, 13, 16, 20] 
 
 nodes = [] 
 
