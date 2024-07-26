@@ -7,7 +7,7 @@ int cost_matrix[N][N] = {{10, 20, 30},
                           {15, 25, 35},
                           {25, 30, 40}};
 
-int assigned[N][2] = {-1}; // Initialize to -1
+int assigned[N][2] = {-1}; 
 int min_assigned[N][2] = {-1}; // Initialize to -1
 
 int min_cost = INT_MAX; // Initialize to maximum possible value
