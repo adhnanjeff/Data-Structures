@@ -10,7 +10,7 @@ int cost_matrix[N][N] = {{10, 20, 30},
 int assigned[N][2] = {-1}; 
 int min_assigned[N][2] = {-1};
 
-int min_cost = INT_MAX; // Initialize to maximum possible value
+int min_cost = INT_MAX; 
 int bound = 0;
 
 int costcal() {
