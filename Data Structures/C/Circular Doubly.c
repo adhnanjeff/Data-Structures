@@ -9,7 +9,7 @@ struct Node{
 
 struct Node* head = NULL;
 
-void insertBeginning(int value) {
+void insertBeginning(int value){
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->data = value;
     newNode->next = head;
