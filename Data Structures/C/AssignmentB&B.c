@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-#define N 3
+#define N3
 
 int cost_matrix[N][N] = {{10, 20, 30},
                           {15, 25, 35},
