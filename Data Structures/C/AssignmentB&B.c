@@ -13,7 +13,7 @@ int min_assigned[N][2] = {-1};
 int min_cost = INT_MAX; 
 int bound = 0;
 
-int costcal() {
+int costcal(){
     int cost = 0;
     for (int i = 0; i < N; i++) {
         cost += cost_matrix[assigned[i][0]][assigned[i][1]];
